@@ -5,8 +5,6 @@ Repositório criado para a Aula 13, focado no início dos estudos de JavaScript.
   <img width="800"alt="image" src="https://github.com/user-attachments/assets/164e9b4d-5d54-4bd7-927d-d5431bff8a2d" />
 </p>
 
-Nota: Adicione a imagem na pasta assets/ do projeto com o nome screenshot.png.
-
 📋 Sobre o Projeto
 Este repositório contém uma Calculadora de IMC (Índice de Massa Corporal) desenvolvida durante a Aula 13, que marca o início do aprendizado de JavaScript. O projeto calcula o IMC com base na altura e peso fornecidos, classificando o resultado em diferentes categorias de saúde.
 ⚕️ Funcionalidades
