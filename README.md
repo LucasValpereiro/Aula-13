@@ -6,7 +6,7 @@ Repositório criado para a Aula 13, focado no início dos estudos de JavaScript.
 <br>
 📸 Preview do Projeto
 <p align="center">
-  <img width="400" alt="image" src="https://github.com/user-attachments/assets/e6777a48-39cd-4a53-b12f-a7079b795523" />
+  <img width="800" alt="image" src="https://github.com/user-attachments/assets/e6777a48-39cd-4a53-b12f-a7079b795523" />
 
 </p>
 
