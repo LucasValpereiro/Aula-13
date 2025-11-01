@@ -1,19 +1,36 @@
 Aula 13 - Introdução ao JavaScript
 Repositório criado para a Aula 13, focado no início dos estudos de JavaScript.
 📸 Preview do Projeto
-Mostrar Imagem
+<p align="center">
+  <img width="800"alt="image" src="https://github.com/user-attachments/assets/164e9b4d-5d54-4bd7-927d-d5431bff8a2d" />
+</p>
 
-<img width="1497" height="976" alt="image" src="https://github.com/user-attachments/assets/68b7fd34-560c-4d50-b844-a4a4058dc344" />
-
+Nota: Adicione a imagem na pasta assets/ do projeto com o nome screenshot.png.
 
 📋 Sobre o Projeto
-Este repositório contém materiais e exercícios práticos desenvolvidos durante a Aula 13, que marca o início do aprendizado de JavaScript. O objetivo é fornecer uma base sólida nos conceitos fundamentais da linguagem de programação mais utilizada para desenvolvimento web.
+Este repositório contém uma Calculadora de IMC (Índice de Massa Corporal) desenvolvida durante a Aula 13, que marca o início do aprendizado de JavaScript. O projeto calcula o IMC com base na altura e peso fornecidos, classificando o resultado em diferentes categorias de saúde.
+⚕️ Funcionalidades
+
+Cálculo automático do IMC baseado em altura e peso
+Classificação do resultado em categorias:
+
+Abaixo do peso (IMC < 18.5)
+Peso normal (IMC entre 18.5 e 24.9)
+Sobrepeso (IMC entre 25 e 29.9)
+Obesidade (IMC entre 30 e 39.9)
+Obesidade grave (IMC > 40)
+
+
+Exibição de mensagens personalizadas para cada categoria
+
 🎯 Objetivos de Aprendizado
 
-Compreender os conceitos básicos de JavaScript
-Aprender sintaxe e estruturas fundamentais da linguagem
-Praticar com exemplos e exercícios introdutórios
-Desenvolver a lógica de programação aplicada ao JavaScript
+Compreender variáveis e tipos de dados em JavaScript
+Trabalhar com operadores aritméticos e lógicos
+Implementar estruturas condicionais (if/else if/else)
+Utilizar operadores de comparação e lógicos (&&)
+Formatar números com métodos como .toFixed()
+Praticar lógica de programação com aplicação real
 
 🚀 Tecnologias Utilizadas
 
@@ -24,8 +41,8 @@ CSS: Estilização (se aplicável)
 📂 Estrutura do Projeto
 Aula-13/
 │
-├── README.md
-└── [Arquivos de aula e exercícios]
+├── index.js          # Código principal da calculadora de IMC
+└── README.md         # Documentação do projeto
 💻 Como Utilizar
 
 Clone este repositório:
@@ -36,18 +53,27 @@ Navegue até o diretório do projeto:
 
 bashcd Aula-13
 
-Abra os arquivos em seu editor de código preferido ou execute-os em um navegador web.
+Execute o código usando Node.js:
 
+bashnode index.js
+📝 Exemplo de Uso
+Para testar com diferentes valores, edite as variáveis no arquivo index.js:
+javascriptconst height = 1.75;  // Altura em metros
+const weight = 70;    // Peso em quilogramas
+Exemplo de saída:
+Seu IMC é de 22.86
+Peso normal
 📚 Conteúdo Abordado
-Os tópicos típicos de uma introdução ao JavaScript incluem:
+Este projeto prático aborda os seguintes conceitos de JavaScript:
 
-Variáveis e tipos de dados
-Operadores
-Estruturas condicionais (if/else)
-Estruturas de repetição (loops)
-Funções básicas
-Manipulação do DOM
-Eventos
+Variáveis com const: Declaração de constantes para altura e peso
+Operadores aritméticos: Cálculo do IMC (divisão e multiplicação)
+Operadores de comparação: <, >=, <= para classificação
+Operadores lógicos: && para verificar intervalos
+Estruturas condicionais: Cadeia de if/else if/else para múltiplas condições
+Métodos de número: .toFixed() para formatação de casas decimais
+Template strings: Exibição de mensagens no console
+Console.log(): Saída de dados no terminal
 
 🤝 Como Contribuir
 Contribuições são bem-vindas! Para contribuir:
