@@ -1,5 +1,5 @@
 const height = 1.75;
-const weight = 70
+const weight = 70;
 
 const imc = weight / (height * height);
 console.log(`Seu IMC é de ${imc.toFixed(2)}`);
